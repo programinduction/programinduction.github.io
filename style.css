@@ -1,0 +1,34 @@
+
+body {
+    background-color: #272823;
+    color: #bfa4a4;
+    font-family: monospace;
+}
+.output {
+    color: white;
+}
+.active::after {
+    content: "_";
+}
+a {
+    color: #52e3f7;
+}
+a:hover {
+    background-color: #49483d;
+}
+.video {
+    color: #c48cff;
+}
+ul {
+    color: #bfa4a4;
+    list-style-type: circle;
+}
+
+.in {
+    color: #ff027e;
+    font-weight: bold;
+}
+.out {
+    color: #bfa4a4;
+}
+
