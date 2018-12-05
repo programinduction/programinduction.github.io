@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Learning As Program Induction @ CogSci 2018</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  <main class="prompt">
+	  <div style="padding-left: 2%; padding-right: 2%; padding-top: 1%; padding-bottom: 1%;">
+
+  <p class="in">$ ./workshop.sh</p>
+  <p class="out" style=''>
+<pre>
+  _        _     ___   ___ 
+ | |      /_\   | _ \ |_ _|
+ | |__   / _ \  |  _/  | | 
+ |____| /_/ \_\ |_|   |___|
+                           
+</pre>
+Learning As Program Induction {</br>
+&nbsp;: Full-day Workshop (<a href='http://www.cognitivesciencesociety.org/conference/cogsci-2018/'>CogSci 2018</a>)<br/>
+&nbsp;: Madison, Wisconsin }
+<!-- Workshop at <a href="https://nips.cc/">FAIM 2018, Barcelona, Spain</a> -->
+  </p>
+  <p class="in">&gt; import lapi as lp</br>
+<p class="in">
+&gt; print(lp.key_dates)</br>
+</p>
+
+<p class="out">
+Day of workshop: July 25th, 2018 <br/>
+Morning-noon: Introduction and first set of talks<br/>
+Afternoon: Second set of talks and discussion <br/>
+</p>
+
+<p class="in">	
+&gt; print(lp.schedule)</br>
+<p class="out">
+<ul>
+	<li>09:00-09:00 <a href="https://ericschulz.github.io/">Eric Schulz</a> Introductory remarks</li>
+	<li>09:00-09:30 <a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a> Cognition as program induction</li>
+	<li>09:30-10:00 <a href="http://www.babylab.berkeley.edu/feixu">Fei Xu</a> Learning generalizations through play</li>
+	<li>10:00-10:30 <a href="http://eccl.mit.edu/people.htm">Laura Schulz</a> Discovery learning in childhood</li><br>
+        <li>10:30-11:00: Morning coffee break</li><br>
+	<li>11:00-11:15 <a href="http://www.normalesup.org/~mamalric/">Marie Amalric</a> A language of geometry in the brain</li>
+	<li>11:15-11:30 <a href="https://lucasem.com/">Lucas Morales</a> Concept representation in a type system</li>
+	<li>11:30-11:45 <a href="http://www.joshrule.com/">Joshua Rule</a> Learning list concepts through program induction</li>
+	<li>11:45-12:00 <a href="https://cims.nyu.edu/~bramley/">Neil Bramley</a> Grounding compositional hypothesis generation in experience</li><br>
+        <li>12:00-01:00: Lunch break</li><br>
+	<li>01:00-01:15 <a href="http://web.mit.edu/ellisk/www/">Kevin Ellis</a> Growing a library of concepts with wake-sleep program induction</li>
+	<li>01:15-01:30 <a href="https://anselmrothe.github.io/">Anselm Rothe</a> Question asking as program induction</li>
+	<li>01:30-01:45 <a href="https://scholar.harvard.edu/ishitadg/bio">Ishita Dasgupta</a> Compositionality in sentence embeddings</li>
+	<li>01:45-02:15 <a href="https://cocolab.stanford.edu/ndg.html">Noah Goodman</a> Probabilistic program induction</li><br>
+        <li>02:15-03:00: Afternoon coffee break</li><br>
+	<li>03:00-03:30 <a href="https://colala.bcs.rochester.edu/people/piantadosi/">Steven Piantadosi</a> What lies below the language of thought?</li><br>
+	<li>~03:30 Panel Discussion: Laura Schulz, Fei Xu, Josh Tenenbaum, Steven Piantadosi, Noah Goodman</li>
+
+	<br/>
+</ul>
+</p>
+</p>
+
+<p class="in">
+&gt; print(lp.abstract)</br>
+</p>
+
+<div style='margin-left:10px;'>The notion that the mind approximates rational (Bayesian) inference has had a strong influence on thinking in psychology since the 1950s. In constrained scenarios, typical of psychology experiments, people often behave in ways that approximate the dictates of probability theory. However, natural learning contexts are typically much more open-ended --- there are often no clear limits on what is possible, and initial proposals often prove inadequate. This means that coming up with the right hypotheses and theories in the first place is often much harder than ruling among them. How do people, and how can machines, expand their hypothesis spaces to generate wholly new ideas, plans and solutions? </div><br>
+
+<div style='margin-left:10px;'>Recent work has begun to shed light on this problem via the idea that many aspects of learning can be better understood through the mathematics of program induction <a href="#1">[1]</a>. </div><br>
+
+<div style='margin-left:10px;'>People are demonstrably able to compose hypotheses from parts <a href="#2">[2</a>,<a href="#3">3</a>,<a href="#4">4]</a> and incrementally grow and adapt their models of the world <a href="#5">[5]</a>. A number of recent studies has formalized these abilities as  program induction, using algorithms that mix stochastic recombination of primitives with memoization and compression to explain data <a href="#6">[6</a>,<a href="#7">7]</a>, ask informative questions <a href="#5">[8]</a>, and support one- and few-shot-inferences <a href="#1">[1]</a>. Program induction is also proving to be an important notion for understanding development and learning through play <a href="#9">[9]</a> and the formation of geometric understanding about the physical world <a href="#10">[10]</a>.</div><br>
+
+<div style='margin-left:10px;'>The aim of this workshop is thus to bring together scientists who have a joint interest in how intelligent systems (humans or machines) can learn rich representations and action plans (expressable as programs) though observing and interacting with the world. </div>
+
+<p class="in">
+&gt; print(lp.taget_audience)</br>
+</p>
+
+<p class="out">
+<div style='margin-left:10px;'>This workshop dovetails nicely with this year's focus on ``change, learning, growth, and adaptation''. These key elements of cognition are precisely those that have resisted Bayesian accounts, and those which learning as program induction theories purport to explain. Our target audience is almost as broad as the conference as a whole --- we expect this workshop to be of interest to psychologists, linguists, philosophers and machine learning researchers alike. Moreover, we feel that the interdisciplinary nature of our workshop will facilitate interactions between the diverse strands of research presented at CogSci that might otherwise remain bunkered in parallel sessions.</div>
+<br/>
+</p>
+
+<p class="in">
+&gt; print(lp.area_header)</br>
+&gt; for area_of_interest in sorted(lp.areas): \</br>
+&gt;   print("- %s" % area_of_interest)</br>
+</p>
+<p class="out">Areas of interest for discussion include, but are not limited to:</br>
+
+</br>
+- Cognitive Models Of Program Induction</br>
+- Assessing Empirical Progress</br>
+- Cognitive Primitives</br>
+- Compositional Ingredients</br>
+- Datasets, Tasks, Evaluation</br>
+- Formalizing Cognitive Theories</br>
+- Inductive Logic Programming</br>
+- Knowledge Representation</br>
+- Meta-learning</br>
+- Program Synthesis</br>
+- Probabilistic Programming</br>
+- Semantic Compostionality</br>
+- Unique Predictions</br>
+</p>
+
+<p class="in">
+&gt; for speaker in lp.speakers: \</br>
+&gt;     print("∘ %s (%s)" % (speaker.name, speaker.affiliation))</br></p>
+<p class="out">
+<ul>
+	<li><a href="http://eccl.mit.edu/people.htm">Laura Schulz</a> (MIT)</li>
+	<li><a href="https://cocolab.stanford.edu/ndg.html">Noah Goodman</a> (Stanford)</li>
+	<li><a href="https://colala.bcs.rochester.edu/people/piantadosi/">Steven Piantadosi</a> (Rochester)</li>
+	<li><a href="http://www.normalesup.org/~mamalric/">Marie Amalric</a> (Rochester)</li>
+	<li><a href="https://anselmrothe.github.io/">Anselm Rothe</a> (NYU)</li>
+	<li><a href="http://web.mit.edu/ellisk/www/">Kevin Ellis</a> (MIT)</li>
+	<li><a href="https://scholar.harvard.edu/ishitadg/bio">Ishita Dasgupta</a> (Harvard)</li>
+	<li><a href="http://www.joshrule.com/">Joshua Rule</a> (MIT)</li>
+	<li><a href="https://lucasem.com/">Lucas Morales</a> (MIT)</li>
+	<li><a href="https://cims.nyu.edu/~bramley/">Neil Bramley</a> (NYU)</li>
+	<li><a href="https://ericschulz.github.io/">Eric Schulz</a> (Harvard)</li>
+	<li><a href="http://www.babylab.berkeley.edu/feixu">Fei Xu</a> (Berkeley)</li>
+	<li><a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a> (MIT)</li>
+	<!-- <li><a href="">NAME</a> (AFFILIATION)</li> -->
+	<br/>
+</ul>
+</p>
+
+
+<p class="in">
+&gt; for organizer in lp.organizers: \</br>
+&gt;     print("∘ %s (%s)" % (organizer.name, organizer.affiliation))</br></p>
+<p class="out">
+	<li><a href="https://cims.nyu.edu/~bramley/">Neil Bramley</a> (NYU)</li>
+	<li><a href="https://ericschulz.github.io/">Eric Schulz</a> (Harvard)</li>
+	<li><a href="http://www.babylab.berkeley.edu/feixu">Fei Xu</a> (Berkeley)</li>
+	<li><a href="http://web.mit.edu/cocosci/josh.html">Joshua Tenenbaum</a> (MIT)</li>
+</br>
+</p>
+
+
+<p class="in">
+&gt; for i, reference in enumerate(lp.references): \</br>
+&gt;     print("[%d] %s" % (i + 1, reference))</br>
+</p>
+<p class="out">
+<a name="1">[1]</a> Lake, B. M., Salakhutdinov, R. and Tenebaum, J. B. (2015). <a href="http://web.mit.edu/cocosci/Papers/Science-2015-Lake-1332-8.pdf">"Human-level concept learning through probabilistic program induction."</a> Science, 350(6266), 1332–1338.
+</br>
+<a name="2">[2]</a> Schulz, E., Tenenbaum, J. B., Duvenaud, D., Speekenbrink, M. and Gershman, S. J. (2017). <a href="http://gershmanlab.webfactional.com/pubs/Schulz17.pdf">" Compositional inductive biases in function learning."</a> Cognitive Psychology, 99, 44-79. 
+</br>
+<a name="3">[3]</a> Goodman, N. G., Tenenbaum, J. B., Feldman, J and Griffiths, T. L. (2008). <a href="https://cocolab.stanford.edu/papers/GoodmanTenenbaum2008-CognitiveScience.pdf">"A rational analysis of rule-based concept learning."</a> Cognitive Science.
+</br>
+<a name="4">[4]</a> Piantadosi, S. T., Tenenbaum, J. B. and Goodman, N. D. (2016). <a href="https://colala.bcs.rochester.edu/papers/piantadosi2016logical.pdf">"The Logical primitives of thought: Empirical foundations for compositional cognitive models."</a> Psychological Review.
+</br>
+<a name="5">[5]</a> Bramley, N. R., Dayan, P., Griffiths, T. L. and Lagnado, D. A. (2017). <a href="https://cims.nyu.edu/~bramley/publications/neuraths_ship.pdf">"Formalizing Neurath's ship: Approximate algorithms for online causal learning."</a> Psychological Review.
+</br>
+<a name="6">[6]</a> Dechter, E., Malmaud, J., Adams, R. P. and Tenenbaum, J. B. (2013). <a href="http://arxiv.org/abs/1410.3916">"Bootstrap learning via modular concept discovery."</a>  International Joint Conference on Artificial Intelligence.
+</br>
+<a name="7">[7]</a> Ellis, K., Dechter, E. and Tenenbaum, J. B. (2015). <a href="https://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10284/10036">"Dimensionality reduction via program induction."</a> Knowledge Representation and Reasoning: Integrating Symbolic and Neural Approaches.
+</br>
+<a name="8">[8]</a> Rothe, A., Lake, B. M. and Gureckis, T. M. (2017). <a href="https://arxiv.org/pdf/1711.06351.pdf">"Question asking as program generation."</a> Advances in Neural Information Processing Systems.
+</br>
+<a name="9">[9]</a> Sim, Z. L. and Xu, F. (2017). <a href="http://docs.wixstatic.com/ugd/9f32e5_f9c90afe233e4ad09031afbc93f6a2ba.pdf">"Learning higher-order generalizations through free play: Evidence from 2-and 3-year-old children."</a> Developmental Psychology.
+</br>
+<a name="10">[10]</a> Amalric, A., Wang, L., Pica, P., Figueiram S., Sigman, M. and Dehaene, S. (2017). <a href="http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005273&type=printable">"The language of geometry: Fast comprehension of geometrical primitives and rules in human adults and preschoolers."</a> PLOS Computational Biology.
+</br>
+</p>
+</div>
+  
+</main>
+    <script src='js/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+<!-- 	<script type="text/javascript">
+	/*<![CDATA[*/
+
+	function RandomList(id){
+	 var ul=document.getElementById(id);
+	 var lis=ul.getElementsByTagName('*')
+	 for (var ary=[],z0=0;z0<lis.length;z0++){
+	  if (lis[z0].parentNode==ul){
+	   ary.push(lis[z0]);
+	  }
+	 }
+	 ary.shuffle();
+	 for (var z1=0;z1<ary.length;z1++){
+	  ul.appendChild(ary[z1]);
+	 }
+	}
+
+	Array.prototype.shuffle=function(){
+	 for (var r,t,z0=0;z0<this.length;z0++){
+	  r=Math.floor(Math.random()*this.length);
+	  t=this[z0];
+	  this[z0]=this[r];
+	  this[r]=t;
+	 }
+	}
+
+	RandomList('rand1')
+	RandomList('rand2')
+	/*]]>*/	
+	</script> -->
+
+<!-- google analytics tracking -->    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82817069-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

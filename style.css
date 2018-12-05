@@ -1,7 +1,7 @@
 
 body {
     background-color: #272823;
-    color: #bfa4a4;
+    color: #FFFFFF; /*#bfa4a4;*/
     font-family: monospace;
 }
 .output {
@@ -20,7 +20,7 @@ a:hover {
     color: #c48cff;
 }
 ul {
-    color: #bfa4a4;
+    color: #FFFFFF; /*#bfa4a4;*/
     list-style-type: circle;
 }
 
@@ -29,6 +29,6 @@ ul {
     font-weight: bold;
 }
 .out {
-    color: #bfa4a4;
+    color: #FFFFFF; /*#bfa4a4;*/
 }
 
